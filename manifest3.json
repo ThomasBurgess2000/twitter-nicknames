@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Twitter Name Changer",
+  "version": "1.0",
+  "description": "Changes how you see people's names on Twitter.",
+  "host_permissions": ["https://twitter.com/*"],
+  "permissions": ["storage", "scripting"],
+  "icons": {
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["editbutton.svg"],
+      "matches": ["https://twitter.com/*"]
+    }
+  ]
+}
